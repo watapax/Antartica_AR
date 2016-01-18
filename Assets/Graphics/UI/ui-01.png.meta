@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: af5836ba09bcb0948a4bbc9449c18f10
+timeCreated: 1452550400
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fondo
+    21300002: ROsado
+    21300004: flechaAbajo
+    21300006: ui-01_0
+    21300008: blanco
+    21300010: ui-01_1
+    21300012: ui-01_2
+    21300014: ui-01_3
+    21300016: ui-01_4
+    21300018: ui-01_5
+    21300020: ui-01_6
+    21300022: Menu
+    21300024: ui-01_7
+    21300026: ui-01_8
+    21300028: ui-01_9
+    21300030: ui-01_10
+    21300032: ui-01_11
+    21300034: ui-01_12
+    21300036: ui-01_13
+    21300038: ui-01_14
+    21300040: ui-01_15
+    21300042: ui-01_16
+    21300044: ui-01_17
+    21300046: ui-01_18
+    21300048: ui-01_19
+    21300050: ui-01_20
+    21300052: ui-01_21
+    21300054: ui-01_22
+    21300056: ui-01_23
+    21300058: ui-01_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fondo
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 313
+        width: 31
+        height: 491
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ROsado
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 818
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 19, y: 19, z: 19, w: 19}
+    - name: flechaAbajo
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 810
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_0
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 828
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 8, y: 7, z: 8, w: 8}
+    - name: blanco
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 879
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_1
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 889
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 821
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 820
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_4
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 890
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 460
+        width: 375
+        height: 269
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 910
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Menu
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 884
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 677
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 751
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 153
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 7
+        width: 153
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 10
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 11
+        width: 150
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 11
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_14
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 11
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 170
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_16
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 168
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 168
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 773
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 773
+        width: 27
+        height: 21
+      alignment: 9
+      pivot: {x: .5, y: .370000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 535
+        width: 187
+        height: 337
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 227
+        width: 283
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 621
+        width: 114
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 43, y: 38, z: 44, w: 38}
+    - name: ui-01_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 818
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 21, y: 21, z: 21, w: 21}
+    - name: ui-01_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 561
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
