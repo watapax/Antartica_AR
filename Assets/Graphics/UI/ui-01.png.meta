@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: af5836ba09bcb0948a4bbc9449c18f10
-timeCreated: 1452550400
+timeCreated: 1453433977
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -34,6 +34,10 @@ TextureImporter:
     21300054: ui-01_22
     21300056: ui-01_23
     21300058: ui-01_24
+    21300060: ui-01_25
+    21300062: ui-01_26
+    21300064: ui-01_27
+    21300066: ui-01_28
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -377,6 +381,46 @@ TextureImporter:
         y: 561
         width: 36
         height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_25
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 767
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 14, z: 13, w: 15}
+    - name: ui-01_26
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 360
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_27
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 355
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui-01_28
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 356
+        width: 26
+        height: 50
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

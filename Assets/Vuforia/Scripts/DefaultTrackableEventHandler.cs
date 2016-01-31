@@ -14,11 +14,21 @@ namespace Vuforia
     public class DefaultTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
     {
+
+
+
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
-    
+		Terrain[] terrainComponents;
+		Renderer[] rendererComponents;
+		Collider[] colliderComponents;
+		Canvas[] canvasComponents;
+
+
         #endregion // PRIVATE_MEMBER_VARIABLES
+
+
 
 
 
@@ -31,6 +41,9 @@ namespace Vuforia
             {
                 mTrackableBehaviour.RegisterTrackableEventHandler(this);
             }
+
+
+
         }
 
         #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -68,20 +81,33 @@ namespace Vuforia
 
         private void OnTrackingFound()
         {
-            Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
-            Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
+		
+			terrainComponents = GetComponentsInChildren<Terrain>(true);
+			rendererComponents = GetComponentsInChildren<Renderer>(true);
+			colliderComponents = GetComponentsInChildren<Collider>(true);
+			canvasComponents = GetComponentsInChildren<Canvas>(true);
             // Enable rendering:
-            foreach (Renderer component in rendererComponents)
-            {
-                component.enabled = true;
-            }
+			for(int i = 0; i < rendererComponents.Length; i++)
+			{
+				rendererComponents[i].enabled = true;
+			}
+
+			for(int i = 0; i < terrainComponents.Length; i++)
+			{
+				terrainComponents[i].enabled = true;
+			}
 
             // Enable colliders:
-            foreach (Collider component in colliderComponents)
-            {
-                component.enabled = true;
-            }
+			for(int i = 0; i < colliderComponents.Length; i++)
+			{
+				colliderComponents[i].enabled = true;
+			}
+			for(int i = 0; i < canvasComponents.Length; i++)
+			{
+				canvasComponents[i].enabled = true;
+			}
+
+
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
@@ -89,24 +115,37 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
-            Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
-            Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
+			terrainComponents = GetComponentsInChildren<Terrain>(true);
+			rendererComponents = GetComponentsInChildren<Renderer>(true);
+			colliderComponents = GetComponentsInChildren<Collider>(true);
+			canvasComponents = GetComponentsInChildren<Canvas>(true);
             // Disable rendering:
-            foreach (Renderer component in rendererComponents)
-            {
-                component.enabled = false;
-            }
+			for(int i = 0; i < rendererComponents.Length; i++)
+			{
+				rendererComponents[i].enabled = false;
+			}
+
+			for(int i = 0; i < terrainComponents.Length; i++)
+			{
+				terrainComponents[i].enabled = false;
+			}
 
             // Disable colliders:
-            foreach (Collider component in colliderComponents)
-            {
-                component.enabled = false;
-            }
+			for(int i = 0; i < colliderComponents.Length; i++)
+			{
+				colliderComponents[i].enabled = false;
+			}
 
+			for(int i = 0; i < canvasComponents.Length; i++)
+			{
+				canvasComponents[i].enabled = false;
+			}
+
+	
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 
         #endregion // PRIVATE_METHODS
     }
 }
+
