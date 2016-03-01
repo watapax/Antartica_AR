@@ -6,6 +6,7 @@ public class AnimationFunction : MonoBehaviour {
 
 	Animator anim;
 	public Animator otroAnim;
+	int toggleTrigger;
 
 	void Awake()
 	{
@@ -16,5 +17,19 @@ public class AnimationFunction : MonoBehaviour {
 	{
 		otroAnim.SetTrigger(trigger);
 	}
+	public void ToggleTrigger()
+	{
+		if(toggleTrigger == 0)
+		{
+			anim.SetTrigger("mostrar");
+			toggleTrigger++;
+		}
+		else
+		{
+			anim.SetTrigger("ocultar");
+			toggleTrigger = 0;
+		}
+	}
+
 
 }

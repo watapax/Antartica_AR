@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: af5836ba09bcb0948a4bbc9449c18f10
-timeCreated: 1453433977
+timeCreated: 1456799856
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -23,7 +23,7 @@ TextureImporter:
     21300032: ui-01_11
     21300034: ui-01_12
     21300036: ui-01_13
-    21300038: ui-01_14
+    21300038: relieve-Antartico
     21300040: ui-01_15
     21300042: ui-01_16
     21300044: ui-01_17
@@ -38,6 +38,8 @@ TextureImporter:
     21300062: ui-01_26
     21300064: ui-01_27
     21300066: ui-01_28
+    21300068: relieve-Roca
+    21300070: Espesor-Nieve
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -274,7 +276,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ui-01_14
+    - name: relieve-Antartico
       rect:
         serializedVersion: 2
         x: 782
@@ -421,6 +423,26 @@ TextureImporter:
         y: 356
         width: 26
         height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: relieve-Roca
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 162
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Espesor-Nieve
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 320
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
